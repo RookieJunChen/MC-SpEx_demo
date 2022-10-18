@@ -1,2 +1,2 @@
-Please visit [https://hit-thusz-rookiecj.github.io/Inter-SubNet/](https://hit-thusz-rookiecj.github.io/Inter-SubNet/)
+Please visit [https://github.com/hit-thusz-RookieCJ/Z-SpEx_demo](https://github.com/hit-thusz-RookieCJ/Z-SpEx_demo)
 
