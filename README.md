@@ -1,2 +1,2 @@
-Please visit [https://github.com/hit-thusz-RookieCJ/Z-SpEx_demo](https://github.com/hit-thusz-RookieCJ/Z-SpEx_demo)
+Please visit [https://hit-thusz-rookiecj.github.io/Z-SpEx_demo/](https://hit-thusz-rookiecj.github.io/Z-SpEx_demo/)
 
