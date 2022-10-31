@@ -26,7 +26,7 @@ Zero-shot speaker extraction aims at efficiently extracting the speech signal of
 
 For a more intuitive comparison, we visualized the speech of seen and unseen speakers extracted by SpEx+ and Z-SpEx respectively.  The speech extracted by the model is passed through the Speaker Encoder of the corresponding model to obtain the speaker embedding, which is then visualized by the t-SNE algorithm.  For each case, we prepared 6 speakers with 30 extracted speech for every speaker. All the cases are visualized at the same coordinate scale.
 
-|             **speaker visualization by t-SNE **              |                                                              |
+|                speaker visualization by t-SNE                |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                  **SpEx+ (seen speakers)**                   |                  **Z-SpEx (seen speakers)**                  |
 | <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 60%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 60%;" /> |
