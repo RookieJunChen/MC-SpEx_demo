@@ -13,7 +13,7 @@ Zero-shot speaker extraction aims at efficiently extracting the speech signal of
 </script>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./data/fig/total_arch.jpg"  width="50%">
+    src="./data/fig/total_arch.jpg"  width="30%">
     <br>
     <div class="caption" style="max-width: 1000px;"> Fig.1: The overall diagram of the Z-SpEx. The dotted border represents the module with shared weights. The "\(\otimes\)" means element-wise multiplication. The “SI-SDR Loss" and ”CE Loss" refer to the scale-invariant signal-to-distortion ratio loss and cross-entropy loss in multi-task learning
     </div>
