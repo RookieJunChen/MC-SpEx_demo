@@ -21,57 +21,22 @@ Zero-shot speaker extraction aims at efficiently extracting the speech signal of
 
 
 
-## Without Reverberation
+## Speaker Visualization
 
-<h3 id = "3"> case 1</h3>
+For a more intuitive comparison, we visualized the speech of seen and unseen speakers extracted by SpEx+ and Z-SpEx respectively.  The speech extracted by the model is passed through the Speaker Encoder of the corresponding model to obtain the speaker embedding, which is then visualized by the t-SNE algorithm.  For each case, we prepared 6 speakers with 30 extracted speech for every speaker. All the cases are visualized at the same coordinate scale.
 
-|                          **case 1**                          |                                                              |
+|             **speaker visualization by t-SNE **              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/no_reverb/example245/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/no_reverb/example245/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example245/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/no_reverb/example245/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**<br>  <audio controls><source src="./data/no_reverb/example245/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/no_reverb/example245/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example245/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/no_reverb/example245/clean.jpg" alt="clean" style="zoom: 80%;" /> |
-
-
-
-<h3 id = "3"> case 2</h3>
-
-|                          **case 2**                          |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/no_reverb/example110/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/no_reverb/example110/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example110/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/no_reverb/example110/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**<br>  <audio controls><source src="./data/no_reverb/example110/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/no_reverb/example110/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example110/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/no_reverb/example110/clean.jpg" alt="clean" style="zoom: 80%;" /> |
-
-
-
-<h3 id = "3"> case 3</h3>
-
-|                          **case 3**                          |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**<br/>  <audio controls><source src="./data/no_reverb/example38/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**<br/>   <audio controls><source src="./data/no_reverb/example38/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example38/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/no_reverb/example38/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/no_reverb/example38/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/no_reverb/example38/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example38/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/no_reverb/example38/clean.jpg" alt="clean" style="zoom: 80%;" /> |
-
-
-
-<h3 id = "3"> case 4</h3>
-
-|                          **case 4**                          |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**  <br/><audio controls><source src="./data/no_reverb/example213/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**  <br/><audio controls><source src="./data/no_reverb/example213/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example213/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/no_reverb/example213/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/no_reverb/example213/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/no_reverb/example213/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example213/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/no_reverb/example213/clean.jpg" alt="clean" style="zoom: 80%;" /> |
+|                  **SpEx+ (seen speakers)**                   |                  **Z-SpEx (seen speakers)**                  |
+| <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 80%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 80%;" /> |
+|                 **SpEx+ (unseen speakers)**                  |                 **Z-SpEx (unseen speakers)**                 |
+| <img src="./data/tsne/unseen_of_spex+.jpg" alt="SpEx+ (unseen speakers)" style="zoom: 80%;" /> | <img src="./data/tsne/unseen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 80%;" /> |
 
 
 
 
 
-
-
-## With Reverberation
+## Cases
 
 <h3 id = "3"> case 1</h3>
 
