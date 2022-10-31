@@ -28,9 +28,9 @@ For a more intuitive comparison, we visualized the speech of seen and unseen spe
 |             **speaker visualization by t-SNE **              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                  **SpEx+ (seen speakers)**                   |                  **Z-SpEx (seen speakers)**                  |
-| <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 80%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 80%;" /> |
+| <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 70%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 70%;" /> |
 |                 **SpEx+ (unseen speakers)**                  |                 **Z-SpEx (unseen speakers)**                 |
-| <img src="./data/tsne/unseen_of_spex+.jpg" alt="SpEx+ (unseen speakers)" style="zoom: 80%;" /> | <img src="./data/tsne/unseen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 80%;" /> |
+| <img src="./data/tsne/unseen_of_spex+.jpg" alt="SpEx+ (unseen speakers)" style="zoom: 70%;" /> | <img src="./data/tsne/unseen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 70%;" /> |
 
 
 
