@@ -14,9 +14,10 @@ Zero-shot speaker extraction aims at efficiently extracting the speech signal of
     <img style="zoom: 55%; " 
     src="./data/fig/total_arch_new.jpg">
     <br>
-    <div class="caption" style="max-width: 600px;"> Fig.1: The overall diagram of the Z-SpEx. The dotted border represents the module with shared weights. The "\(\otimes\)" means element-wise multiplication. The “SI-SDR Loss" and ”CE Loss" refer to the scale-invariant signal-to-distortion ratio loss and cross-entropy loss in multi-task learning
+    <div class="caption" style="max-width: 600px;"> Fig.1: The overall diagram of the Z-SpEx. The dotted border represents the module with shared weights. The "\(\otimes\)" means element-wise multiplication. The “SI-SDR Loss" and ”CE Loss" refer to the scale-invariant signal-to-distortion ratio loss and cross-entropy loss in multi-task learning.
     </div>
 </center>
+
 
 
 
@@ -28,9 +29,9 @@ For a more intuitive comparison, we visualized the speech of seen and unseen spe
 |             **speaker visualization by t-SNE **              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                  **SpEx+ (seen speakers)**                   |                  **Z-SpEx (seen speakers)**                  |
-| <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 70%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 70%;" /> |
+| <img src="./data/tsne/seen_of_spex+.jpg" alt="SpEx+ (seen speakers)" style="zoom: 60%;" /> | <img src="./data/tsne/seen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 60%;" /> |
 |                 **SpEx+ (unseen speakers)**                  |                 **Z-SpEx (unseen speakers)**                 |
-| <img src="./data/tsne/unseen_of_spex+.jpg" alt="SpEx+ (unseen speakers)" style="zoom: 70%;" /> | <img src="./data/tsne/unseen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 70%;" /> |
+| <img src="./data/tsne/unseen_of_spex+.jpg" alt="SpEx+ (unseen speakers)" style="zoom: 60%;" /> | <img src="./data/tsne/unseen_of_proposal.jpg" alt="Z-SpEx (seen speakers)" style="zoom: 60%;" /> |
 
 
 
