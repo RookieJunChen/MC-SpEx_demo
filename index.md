@@ -39,44 +39,46 @@ For a more intuitive comparison, we visualized the speech of seen and unseen spe
 
 ## Cases
 
-<h3 id = "3"> case 1</h3>
+We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set. In this test set, **all the speakers are unseen**. The cases are divided into "different gender" and "same gender", where "same gender" is further classified as "female mixed with female" and "male mixed with male".
 
-|                          **case 1**                          |                                                              |
+<h3 id = "3">Different Gender</h3>
+
+|                            case 1                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/with_reverb/example38/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/with_reverb/example38/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example38/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/with_reverb/example38/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**<br>  <audio controls><source src="./data/with_reverb/example38/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/with_reverb/example38/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example38/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/with_reverb/example38/clean.jpg" alt="clean" style="zoom: 80%;" /> |
+| **Mixture** <br><audio controls><source src="./data/diff_gen/case1/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case1/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/diff_gen/case1/mix.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/diff_gen/case1/spex_plus.jpg" alt="baseline" style="zoom: 80%;" /> |
+| **Z-SpEx**<br>  <audio controls><source src="./data/diff_gen/case1/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth** <br> <audio controls><source src="./data/diff_gen/case1/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/diff_gen/case1/ours.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/diff_gen/case1/gt.jpg" alt="clean" style="zoom: 80%;" /> |
 
 
 
-<h3 id = "3"> case 2</h3>
-
-|                          **case 2**                          |                                                              |
+|                            case 2                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/with_reverb/example110/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/with_reverb/example110/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example110/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/with_reverb/example110/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**<br>  <audio controls><source src="./data/with_reverb/example110/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/with_reverb/example110/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example110/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/with_reverb/example110/clean.jpg" alt="clean" style="zoom: 80%;" /> |
+| **Mixture** <br><audio controls><source src="./data/diff_gen/case2/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case2/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/diff_gen/case2/mix.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/diff_gen/case2/spex_plus.jpg" alt="baseline" style="zoom: 80%;" /> |
+| **Z-SpEx**<br>  <audio controls><source src="./data/diff_gen/case2/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth** <br> <audio controls><source src="./data/diff_gen/case2/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/diff_gen/case2/ours.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/diff_gen/case2/gt.jpg" alt="clean" style="zoom: 80%;" /> |
 
 
 
-<h3 id = "3"> case 3</h3>
+<h3 id = "3"> Same Gender</h3>
 
-|                          **case 3**                          |                                                              |
+<h4 id = "4">Female mixed with female</h4>
+
+|                   Female mixed with female                   |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**  <br/><audio controls><source src="./data/with_reverb/example245/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**   <br/><audio controls><source src="./data/with_reverb/example245/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example245/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/with_reverb/example245/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/with_reverb/example245/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/with_reverb/example245/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example245/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/with_reverb/example245/clean.jpg" alt="clean" style="zoom: 80%;" /> |
+| **Mixture**  <br/><audio controls><source src="./data/same_gen/female_female/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+**   <br/><audio controls><source src="./data/same_gen/female_female/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/same_gen/female_female/mix.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/same_gen/female_female/spex_plus.jpg" alt="baseline" style="zoom: 80%;" /> |
+| **Z-SpEx**  <br/><audio controls><source src="./data/same_gen/female_female/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth**  <br/><audio controls><source src="./data/same_gen/female_female/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/same_gen/female_female/ours.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/same_gen/female_female/gt.jpg" alt="clean" style="zoom: 80%;" /> |
 
 
 
-<h3 id = "3"> case 4</h3>
+<h4 id = "3">Male mixed with male</h4>
 
-|                          **case 4**                          |                                                              |
+|                     Male mixed with male                     |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**  <br/><audio controls><source src="./data/with_reverb/example206/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**   <br/><audio controls><source src="./data/with_reverb/example206/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example206/noisy.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/with_reverb/example206/Subband_model.jpg" alt="baseline" style="zoom: 80%;" /> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/with_reverb/example206/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/with_reverb/example206/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/with_reverb/example206/Inter_SubNet.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/with_reverb/example206/clean.jpg" alt="clean" style="zoom: 80%;" /> |
+| **Mixture**  <br/><audio controls><source src="./data/same_gen/male_male/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+**   <br/><audio controls><source src="./data/same_gen/male_male/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/same_gen/male_male/mix.jpg" alt="noisy" style="zoom: 80%;" /> | <img src="./data/same_gen/male_male/spex_plus.jpg" alt="baseline" style="zoom: 80%;" /> |
+| **Z-SpEx**  <br/><audio controls><source src="./data/same_gen/male_male/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth**  <br/><audio controls><source src="./data/same_gen/male_male/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/same_gen/male_male/ours.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/same_gen/male_male/gt.jpg" alt="clean" style="zoom: 80%;" /> |
