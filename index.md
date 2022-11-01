@@ -43,6 +43,8 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 
 <h3 id = "3">Different Gender</h3>
 
+#### case 1
+
 |                            case 1                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Mixture** <br><audio controls><source src="./data/diff_gen/case1/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case1/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
@@ -51,6 +53,8 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 | <img src="./data/diff_gen/case1/ours.jpg" alt="proposed" style="zoom: 80%;" /> | <img src="./data/diff_gen/case1/gt.jpg" alt="clean" style="zoom: 80%;" /> |
 
 
+
+#### case 2
 
 |                            case 2                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
