@@ -48,9 +48,9 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 |                            case 1                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Mixture** <br><audio controls><source src="./data/diff_gen/case1/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case1/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/diff_gen/case1/mix.jpg" alt="mixture" width="80%"/> | <img src="./data/diff_gen/case1/spex_plus.jpg" alt="baseline" width="80%"/> |
+| <img src="./data/diff_gen/case1/mix.jpg" alt="mixture" width="100%"/> | <img src="./data/diff_gen/case1/spex_plus.jpg" alt="baseline" width="100%"/> |
 | **Z-SpEx**<br>  <audio controls><source src="./data/diff_gen/case1/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth** <br> <audio controls><source src="./data/diff_gen/case1/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/diff_gen/case1/ours.jpg" alt="proposed" width="80%" /> | <img src="./data/diff_gen/case1/gt.jpg" alt="ground truth" width="80%"/> |
+| <img src="./data/diff_gen/case1/ours.jpg" alt="proposed" width="100%" /> | <img src="./data/diff_gen/case1/gt.jpg" alt="ground truth" width="100%"/> |
 
 
 
@@ -59,9 +59,9 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 |                            case 2                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Mixture** <br><audio controls><source src="./data/diff_gen/case2/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case2/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/diff_gen/case2/mix.jpg" alt="mixture" width="80%" /> | <img src="./data/diff_gen/case2/spex_plus.jpg" alt="baseline" width="80%" /> |
+| <img src="./data/diff_gen/case2/mix.jpg" alt="mixture" width="100%" /> | <img src="./data/diff_gen/case2/spex_plus.jpg" alt="baseline" width="100%" /> |
 | **Z-SpEx**<br>  <audio controls><source src="./data/diff_gen/case2/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth** <br> <audio controls><source src="./data/diff_gen/case2/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/diff_gen/case2/ours.jpg" alt="proposed" width="80%" /> | <img src="./data/diff_gen/case2/gt.jpg" alt="ground truth" width="80%" /> |
+| <img src="./data/diff_gen/case2/ours.jpg" alt="proposed" width="100%" /> | <img src="./data/diff_gen/case2/gt.jpg" alt="ground truth" width="100%" /> |
 
 
 
@@ -72,9 +72,9 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 |                   Female mixed with female                   |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Mixture**  <br/><audio controls><source src="./data/same_gen/female_female/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+**   <br/><audio controls><source src="./data/same_gen/female_female/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/same_gen/female_female/mix.jpg" alt="mixture" width="80%" /> | <img src="./data/same_gen/female_female/spex_plus.jpg" alt="baseline" width="80%" /> |
+| <img src="./data/same_gen/female_female/mix.jpg" alt="mixture" width="100%" /> | <img src="./data/same_gen/female_female/spex_plus.jpg" alt="baseline" width="100%" /> |
 | **Z-SpEx**  <br/><audio controls><source src="./data/same_gen/female_female/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth**  <br/><audio controls><source src="./data/same_gen/female_female/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/same_gen/female_female/ours.jpg" alt="proposed" width="80%" /> | <img src="./data/same_gen/female_female/gt.jpg" alt="ground truth" width="80%" /> |
+| <img src="./data/same_gen/female_female/ours.jpg" alt="proposed" width="100%" /> | <img src="./data/same_gen/female_female/gt.jpg" alt="ground truth" width="100%" /> |
 
 
 
@@ -83,6 +83,6 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 |                     Male mixed with male                     |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **Mixture**  <br/><audio controls><source src="./data/same_gen/male_male/mix.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **SpEx+**   <br/><audio controls><source src="./data/same_gen/male_male/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/same_gen/male_male/mix.jpg" alt="mixture" width="80%" /> | <img src="./data/same_gen/male_male/spex_plus.jpg" alt="baseline" width="80%" /> |
+| <img src="./data/same_gen/male_male/mix.jpg" alt="mixture" width="100%" /> | <img src="./data/same_gen/male_male/spex_plus.jpg" alt="baseline" width="100%" /> |
 | **Z-SpEx**  <br/><audio controls><source src="./data/same_gen/male_male/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth**  <br/><audio controls><source src="./data/same_gen/male_male/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/same_gen/male_male/ours.jpg" alt="proposed" width="80%" /> | <img src="./data/same_gen/male_male/gt.jpg" alt="ground truth" width="80%" /> |
+| <img src="./data/same_gen/male_male/ours.jpg" alt="proposed" width="100%" /> | <img src="./data/same_gen/male_male/gt.jpg" alt="ground truth" width="100%" /> |
