@@ -47,9 +47,9 @@ We compare the performance of our proposed Z-SpEx and SpEx on Libri2Mix test set
 
 |                            case 1                            |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                                                              |                                                              |
+| **Mixture** <br><audio controls><source src="./data/diff_gen/case1/mix.wav" type="audio/wav" >Your browser does not support the audio element.</audio> | **SpEx+** <br>  <audio controls><source src="./data/diff_gen/case1/spex_plus.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/diff_gen/case1/mix.jpg" alt="mixture" width="100%"/> | <img src="./data/diff_gen/case1/spex_plus.jpg" alt="baseline" width="100%"/> |
-|                                                              |                                                              |
+| **Z-SpEx**<br>  <audio controls><source src="./data/diff_gen/case1/ours.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Ground truth** <br> <audio controls><source src="./data/diff_gen/case1/gt.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/diff_gen/case1/ours.jpg" alt="proposed" width="100%" /> | <img src="./data/diff_gen/case1/gt.jpg" alt="ground truth" width="100%"/> |
 
 
