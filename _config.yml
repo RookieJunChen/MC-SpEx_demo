@@ -1,5 +1,5 @@
-title: "Z-SpEx: Zero-shot Speaker Extraction with Multi-scale Interaction and Effective Cross-subnet Combination"
-description: SUBMITTED TO ICASSP 2023
+title: "MC-SpEx: Towards Effective Speaker Extraction with Multi-Scale Interfusion and Conditional Speaker Modulation"
+description: Accepted by InterSpeech 2023
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
